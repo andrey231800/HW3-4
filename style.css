@@ -247,7 +247,7 @@ header {
 
 .container4 .block2 {
   top: 34%;
-  left: 11%;
+  left: 6%;
 }
 
 .container5 {
@@ -269,7 +269,7 @@ header {
 
 .container5 .text {
   top: 42%;
-  left: 50.5%;
+  left: 55.5%;
 }
 
 .container5 .text h3,
@@ -281,7 +281,7 @@ header {
 }
 
 .container5 img {
-  margin-left: 19.5%;
+  margin-left: 11.5%;
   margin-top: 162px;
   margin-bottom: 115px;
 }
@@ -298,13 +298,13 @@ header {
 }
 
 .container6 .text {
-  left: 22%;
+  left: 11%;
   top: 28%;
 }
 
 .container6 img {
   display: inline-block;
-  margin-left: 56%;
+  margin-left: 57%;
   margin-bottom: 165px;
 }
 
@@ -322,7 +322,7 @@ header {
   position: absolute;
   width: 544px;
   top: 33%;
-  left: 55%;
+  left: 52%;
 }
 
 .container7 p {
@@ -404,6 +404,17 @@ h3 {
   .container4 .text {
     width: 200px;
   }
+  .text h3 {
+    line-height: 1;
+    color: #43a9ff;
+    font-size: 32px;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  
+  .container6 .text{
+    top: 76%;
+  }
 }
 @media (max-width: 1200px) {
   .container4 {
@@ -411,15 +422,20 @@ h3 {
   }
   .container5 .text {
     top: 85%;
-    left: 20%;
+    left: 30%;
     /* font-size: 15%; */
   }
   .container6 img {
-    margin-left: 21%;
+    margin-left: 30.5%;
+    margin-top: 2%;
   }
   .container6 .text {
-    left: 19%;
+    left: 30%;
     top: 76%;
+  }
+  .container5 img {
+    margin-left: 30.5%;
+    margin-top: 57px;
   }
 }
 @media (max-width: 768px) {
@@ -447,6 +463,19 @@ h3 {
   }
   .container7 .name {
     margin-top: 10%;
+  }
+  .container5 img {
+    margin-left: 22.5%;
+  }
+  .container6 img {
+    margin-left: 25%;
+  }
+  .container5 .text {
+    top: 85%;
+    left: 22%;
+  }
+  .container6 .text {
+    left: 22%;
   }
 }
 
@@ -519,5 +548,47 @@ h3 {
   }
   .burger {
     margin-top: 15px;
+  }
+  .container5 img {
+    margin-left: -7.5%;
+    margin-top: 21px;
+    width: 113%;
+  }
+  .container6 img {
+    margin-left: -7.5%;
+    width: 113%;
+  }
+  .container4 .block2 {
+    top: 12%;
+    left: 5%;
+    font-size: 98%;
+  }
+  .container4 .block1 {
+    top: 13%;
+    left: 52.25%;
+    font-size: 18px;
+  }
+  .container6 .text {
+    width: 71%;
+    display: flex;
+    flex-direction: column;
+    font-size: 62%;
+    left: 16%;
+  }
+  .container5 .text {
+    top: 80%;
+    left: 1%;
+    font-size: 76%;
+    margin-right: -4%;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+  }
+  .text h3 {
+    line-height: 1;
+    color: #43a9ff;
+    font-size: 24px;
+    margin-bottom: 35px;
+    margin-left: -11%;
   }
 }
